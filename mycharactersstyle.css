@@ -22,7 +22,7 @@ body {
 	background-color: #111;
 }
 
-#logoutbutton {
+.navbar .alignright {
 	float: right;
 	border-left: 1px solid #bbb;
 	border-right: none;
@@ -50,11 +50,11 @@ li {
 	overflow: hidden;
 }
 
-#alignleft {
+.alignleft {
 	float: left;
 }
 
-#alignright {
+.alignright {
 	float: right;
 	text-align: right;
 }
