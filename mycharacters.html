@@ -3,29 +3,30 @@
 	<head>
 		<meta charset="utf-8">
 		<title>My Characters</title>
+		<link rel="stylesheet" href="generalstyle.css">
 		<link rel="stylesheet" href="mycharactersstyle.css">
 	</head>
 	<body>
 		<div class="navbar">
 			<a href="#">Home</a>
-			<a href="#">Character classes</a>
-			<a href="#">Feats</a>
-			<a href="#">Skills</a>
-			<a href="#">Equipment</a>
-			<a href="#">Spells</a>
-			<a href="#" class="alignright">Logout</a>
-			<a href="#" class="alignright">Gameplay</a>
+			<a href="characterclasses.html">Character classes</a>
+			<a href="feats.html">Feats</a>
+			<a href="skills.html">Skills</a>
+			<a href="equipment.html">Equipment</a>
+			<a href="spells.html">Spells</a>
+			<a href="home.html" class="alignright">Logout</a>
+			<a href="gameplay.html" class="alignright">Gameplay</a>
 		</div>
-		<div class="charactermenu">
-			<h1>My characters</h1>
-			<ul>
-				<li><span class="alignleft">Sabrina<br>Cleric level 3</span><span class="alignright"><button>View</button><br>345/3000 experience</span></li>
-				<li><span class="alignleft">Leon<br>Fighter level 1</span><span class="alignright"><button>View</button><br>40/1000 experience</span></li>
-				<li><span class="alignleft">Steven<br>Cleric level 4</span><span class="alignright"><button>View</button><br>257/4000 experience</span></li>
-			</ul>
-			<button>Make new character</button>
-		</div>
-		<div class="characterside">
+		<div class="mainscreen">
+			<div class="selectionbar">
+				<h1>My characters</h1>
+				<ul>
+					<li class="selected"><span class="alignleft">Sabrina<br>Cleric level 3</span><span class="alignright"><button>View</button><br>345/3000 experience</span></li>
+					<li><span class="alignleft">Leon<br>Fighter level 1</span><span class="alignright"><button>View</button><br>40/1000 experience</span></li>
+					<li><span class="alignleft">Steven<br>Cleric level 4</span><span class="alignright"><button>View</button><br>257/4000 experience</span></li>
+				</ul>
+				<button>Make new character</button>
+			</div>
 		</div>
 	</body>
 </html>
